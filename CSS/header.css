@@ -1,0 +1,42 @@
+header{
+    height: 150px;
+    background-color:#67e0e0f6 ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.imagem-logo {
+    max-width: 100px;
+    max-height: 80px;
+    width: auto;
+    height: auto;
+}
+.inicio {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    flex-flow: wrap;
+}
+.inicio a {
+    text-decoration: none;
+    color: aliceblue;
+    transition: color 0.5s;
+}
+.container-texto {
+    float:left ;
+    text-align: justify;
+}
+.container-texto2 {
+    float: right;
+    text-align: right;
+}
+.a {
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    
+}
