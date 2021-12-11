@@ -13,11 +13,9 @@ header{
 }
 .inicio {
     display: flex;
-    gap: 20px;
-    justify-content: space-between;
+    gap: 40px;
     align-items: center;
     flex-direction: row;
-    flex-flow: wrap;
 }
 .inicio a {
     text-decoration: none;
