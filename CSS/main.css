@@ -15,12 +15,12 @@ main {
 
 #menu ul li {
     display: inline;
-    margin: 0px 1rem;
-}
+    margin: 10px 10px;
 
+}
 #menu ul li a {
     color: black;
-    padding: 20px;
+    padding: 20px 20px;
     display: inline-block;
     text-decoration: none;
     transition: 0.3s;
@@ -29,14 +29,43 @@ main {
 #menu ul li a:hover {
     background-color: #67e0e0f6;
 }
-.fotos {
+.fotos{
     display: flex;
     flex-wrap: wrap;
-    max-width: 100%;
-    padding: 30px 60px;
-    cursor: pointer;
-    margin: 0px 1rem;
+    flex-grow: 1;
+    justify-content: space-between;
+    padding: 50px 350px;
+    gap: 40px;
+    border: 2px solid red;
+    margin:0px 40px;
 }
-.fotos a {
-    border:  1px solid red;
+.galeria-items{
+    height: 200px;
+    width: 150px;
+    border: 2px solid black;
+    padding: 0px 0px;
+    
 }
+.galeria-items img{
+    border: 2px solid springgreen;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+} 
+.fotos2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    justify-content: space-between;
+    padding: 50px 350px;
+    gap: 40px;
+    border: 2px solid red;
+    margin:0px 40px;
+}
+.fotos2 :nth-child(3){
+    border: 2px solid springgreen;
+    text-align: center;
+    display: flex;
+    right: 800px;
+}
+
